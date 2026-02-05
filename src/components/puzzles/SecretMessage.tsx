@@ -16,7 +16,7 @@ const MESSAGE_PARTS = [
   { text: " skip a beat. Your ", blank: null },
   { text: null, blank: { answer: "SMILE", display: "S _ _ _ E" } },
   { text: " lights up my world. I ", blank: null },
-  { text: null, blank: { answer: "LOVE", display: "L _ _ E" } },
+  { text: null, blank: { answer: "LIKE", display: "L _ _ E" } },
   { text: " everything about you! 💕", blank: null },
 ];
 
