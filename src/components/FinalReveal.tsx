@@ -5,9 +5,12 @@ import { Heart, Sparkles } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
 import confetti from "canvas-confetti";
 
-const FinalReveal = () => {
-  const [answered, setAnswered] = useState(false);
+interface FinalRevealProps {
+  onRestart: () => void;
+}
 
+const FinalReveal = ({ onRestart }: FinalRevealProps) => {
+  const [answered, setAnswered] = useState(false);
   const handleYes = () => {
     setAnswered(true);
     
@@ -165,6 +168,20 @@ const FinalReveal = () => {
             >
               Happy Valentine's Day! 💝
             </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.5 }}
+            >
+              <Button
+                onClick={onRestart}
+                variant="ghost"
+                className="mt-4 text-muted-foreground hover:text-primary"
+              >
+                Play Again ↺
+              </Button>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
