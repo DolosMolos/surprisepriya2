@@ -13,7 +13,7 @@ const WORDS = [
   { scrambled: "SKIESS", answer: "KISSES", hint: "Lots of 💋" },
   { scrambled: "TRAHE", answer: "HEART", hint: "Symbol of affection ❤️" },
   { scrambled: "EETWS", answer: "SWEET", hint: "Like candy 🍬" },
-  { scrambled: "PETARKS", answer: "SPARKLE", hint: "Like your eyes ✨" },
+  { scrambled: "PRASKEL", answer: "SPARKLE", hint: "Like your eyes ✨" },
   { scrambled: "IMELS", answer: "SMILE", hint: "What you make me do 😊" },
 ];
 

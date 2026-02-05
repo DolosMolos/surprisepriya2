@@ -154,9 +154,8 @@ const FinalReveal = ({ onRestart }: FinalRevealProps) => {
               transition={{ delay: 0.8 }}
             >
               <p className="text-lg text-foreground leading-relaxed">
-                Priya, I've been meaning to tell you... 
-                I really like spending time with you. 
-                <span className="text-primary font-bold"> I like you a lot! 💕</span>
+                Priya, I have been meaning to tell you... I really like you the way you like your biryani and gulab jamun. I love spending time with you - the slow chats we do, the awkward talks, and everything about it. As I said directly when we first chatted, I really like you and I mean it.
+                <span className="text-primary font-bold"> I like you a lot! Will you be my Valentine? 💕</span>
               </p>
             </motion.div>
 
