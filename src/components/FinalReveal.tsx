@@ -67,24 +67,28 @@ const FinalReveal = ({ onRestart }: FinalRevealProps) => {
               <Heart className="w-12 h-12 text-primary fill-primary animate-float" style={{ animationDelay: "1s" }} />
             </motion.div>
 
-            {/* Main question */}
-            <motion.h1
-              className="text-3xl md:text-5xl font-bold text-primary mb-4 leading-tight"
+            {/* Personal message */}
+            <motion.div
+              className="bg-card rounded-2xl p-6 shadow-lg border-2 border-primary/30 mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              Will You Be My Valentine, Priya?
-            </motion.h1>
+              <p className="text-lg text-foreground leading-relaxed">
+                Priya, I have been meaning to tell you... I really like you the way you like your biryani and gulab jamun. I love spending time with you - the slow chats we do, the awkward talks, and everything about it. As I said directly when we first chatted, I really like you and I mean it.
+                <span className="text-primary font-bold"> I like you a lot! 💕</span>
+              </p>
+            </motion.div>
 
-            <motion.p
-              className="text-lg text-muted-foreground mb-8"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+            {/* Main question */}
+            <motion.h1
+              className="text-2xl md:text-4xl font-bold text-primary mb-8 leading-tight"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7 }}
             >
-              💕 You've unlocked the final surprise! 💕
-            </motion.p>
+              Will You Be My Valentine, Priya? 💝
+            </motion.h1>
 
             {/* Buttons */}
             <motion.div
@@ -153,9 +157,8 @@ const FinalReveal = ({ onRestart }: FinalRevealProps) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
-              <p className="text-lg text-foreground leading-relaxed">
-                Priya, I have been meaning to tell you... I really like you the way you like your biryani and gulab jamun. I love spending time with you - the slow chats we do, the awkward talks, and everything about it. As I said directly when we first chatted, I really like you and I mean it.
-                <span className="text-primary font-bold"> I like you a lot! Will you be my Valentine? 💕</span>
+              <p className="text-xl text-foreground leading-relaxed">
+                Can't wait to celebrate with you! 🎉💕
               </p>
             </motion.div>
 
