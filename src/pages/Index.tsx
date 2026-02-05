@@ -45,7 +45,7 @@ const Index = () => {
       )}
       
       {gameState === "reveal" && (
-        <FinalReveal />
+        <FinalReveal onRestart={() => setGameState("welcome")} />
       )}
     </div>
   );
