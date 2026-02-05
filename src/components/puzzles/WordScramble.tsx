@@ -10,11 +10,11 @@ interface WordScrambleProps {
 }
 
 const WORDS = [
-  { scrambled: "SISES", answer: "KISSES", hint: "Lots of 💋" },
-  { scrambled: "TRAHE", answer: "HEART", hint: "Symbol of love ❤️" },
-  { scrambled: "EOVER", answer: "LOVER", hint: "Someone special 💕" },
+  { scrambled: "SKIESS", answer: "KISSES", hint: "Lots of 💋" },
+  { scrambled: "TRAHE", answer: "HEART", hint: "Symbol of affection ❤️" },
+  { scrambled: "EETWS", answer: "SWEET", hint: "Like candy 🍬" },
   { scrambled: "PETARKS", answer: "SPARKLE", hint: "Like your eyes ✨" },
-  { scrambled: "ORECENS", answer: "ROMANCE", hint: "Love story 💝" },
+  { scrambled: "IMELS", answer: "SMILE", hint: "What you make me do 😊" },
 ];
 
 const WordScramble = ({ onComplete }: WordScrambleProps) => {

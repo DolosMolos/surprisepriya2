@@ -151,9 +151,9 @@ const FinalReveal = () => {
               transition={{ delay: 0.8 }}
             >
               <p className="text-lg text-foreground leading-relaxed">
-                Priya, every moment with you feels magical. 
-                Thank you for being my Valentine! 
-                <span className="text-primary font-bold"> I love you! 💕</span>
+                Priya, I've been meaning to tell you... 
+                I really like spending time with you. 
+                <span className="text-primary font-bold"> I like you a lot! 💕</span>
               </p>
             </motion.div>
 
