@@ -25,7 +25,7 @@ const WordScramble = ({ onComplete }: WordScrambleProps) => {
   const [shake, setShake] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
 
-  const currentWord = WORDS[currentIndex];
+  const currentWord = WORDS[currentIndex] || WORDS[0];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
