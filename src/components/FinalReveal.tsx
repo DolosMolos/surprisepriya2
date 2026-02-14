@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Heart, Sparkles } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
 import confetti from "canvas-confetti";
+import valentineMeme from "@/assets/valentine-meme.jpg";
 
 const NO_RESPONSES = [
   "Are you sure? 🥺",
@@ -238,8 +239,8 @@ const FinalReveal = ({ onRestart }: FinalRevealProps) => {
               transition={{ delay: 1.0 }}
             >
               <img
-                src="https://media.tenor.com/WDVBQl6n0gcAAAAM/pedro-pascal-interview.gif"
-                alt="Happy reaction meme"
+                src={valentineMeme}
+                alt="Me when she said yes meme"
                 className="w-full max-w-xs mx-auto"
               />
               <p className="text-sm text-muted-foreground py-2 italic">Me right now 😏💕</p>
