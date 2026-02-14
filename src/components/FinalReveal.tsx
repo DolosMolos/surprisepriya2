@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Heart, Sparkles } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
 import confetti from "canvas-confetti";
-import valentineMeme from "@/assets/valentine-meme.jpg";
+import valentineMeme from "@/assets/valentine-meme.gif";
 
 const NO_RESPONSES = [
   "Are you sure? 🥺",
@@ -220,16 +220,6 @@ const FinalReveal = ({ onRestart }: FinalRevealProps) => {
               You just made me the happiest person ever!
             </motion.p>
 
-            <motion.div
-              className="bg-card rounded-2xl p-6 shadow-lg border-2 border-primary/30"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8 }}
-            >
-              <p className="text-xl text-foreground leading-relaxed">
-                Can't wait to celebrate with you! 🎉💕
-              </p>
-            </motion.div>
 
             {/* Meme */}
             <motion.div
